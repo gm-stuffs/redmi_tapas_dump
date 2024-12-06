@@ -1,0 +1,13 @@
+service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service-st
+    class hal
+    user nfc
+    group nfc
+    disabled
+
+on boot && property:ro.boot.hwname=topaz
+    start nfc_hal_service
+    setprop ro.hardware.nfc ST_NFC
+    setprop ro.vendor.nfc.repair 1
+    setprop ro.vendor.nfc.dispatch_optim 1
+#disable wallet fusion ,following U
+#    setprop ro.vendor.nfc.wallet_fusion 1
