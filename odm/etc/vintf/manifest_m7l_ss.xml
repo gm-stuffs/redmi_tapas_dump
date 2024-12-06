@@ -1,0 +1,123 @@
+<!--
+    Input:
+        manifest_m7l_ss.xml
+        qcrilhook-saidl_ss.xml
+        qtiradio-saidl_ss.xml
+        android.hardware.radio.messaging_ss.xml
+        android.hardware.radio.modem_ss.xml
+        android.hardware.radio.network_ss.xml
+        android.hardware.radio.sim_ss.xml
+        android.hardware.radio.voice_ss.xml
+        vendor.qti.hardware.radio.am_ss.xml
+        vendor.qti.hardware.radio.ims_ss.xml
+        android.hardware.radio.data_ss.xml
+        dataconnection-saidl_ss.xml
+-->
+<manifest version="5.0" type="device" target-level="7">
+    <hal format="aidl">
+        <name>android.hardware.radio.data</name>
+        <fqname>IRadioData/slot1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.messaging</name>
+        <fqname>IRadioMessaging/slot1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.modem</name>
+        <fqname>IRadioModem/slot1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.network</name>
+        <fqname>IRadioNetwork/slot1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.sim</name>
+        <fqname>IRadioSim/slot1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.radio.voice</name>
+        <fqname>IRadioVoice/slot1</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.data.connection</name>
+        <transport>hwbinder</transport>
+        <version>1.1</version>
+        <interface>
+            <name>IDataConnection</name>
+            <instance>slot1</instance>
+        </interface>
+        <fqname>@1.1::IDataConnection/slot1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.qti.hardware.data.connectionfactory</name>
+        <fqname>IFactory/slot0</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.data.iwlan</name>
+        <transport>hwbinder</transport>
+        <version>1.1</version>
+        <interface>
+            <name>IIWlan</name>
+            <instance>slot1</instance>
+        </interface>
+        <fqname>@1.1::IIWlan/slot1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.qti.hardware.radio.am</name>
+        <fqname>IQcRilAudio/slot1</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.qti.hardware.radio.ims</name>
+        <version>9</version>
+        <fqname>IImsRadio/imsradio0</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.radio.lpa</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IUimLpa</name>
+            <instance>UimLpa0</instance>
+        </interface>
+        <fqname>@1.0::IUimLpa/UimLpa0</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.qti.hardware.radio.qcrilhook</name>
+        <fqname>IQtiOemHook/oemhook0</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.qti.hardware.radio.qtiradio</name>
+        <version>9</version>
+        <fqname>IQtiRadioStable/slot1</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.radio.uim</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>IUim</name>
+            <instance>Uim0</instance>
+        </interface>
+        <fqname>@1.2::IUim/Uim0</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.radio.uim_remote_client</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IUimRemoteServiceClient</name>
+            <instance>uimRemoteClient0</instance>
+        </interface>
+        <fqname>@1.0::IUimRemoteServiceClient/uimRemoteClient0</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.radio.uim_remote_server</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IUimRemoteServiceServer</name>
+            <instance>uimRemoteServer0</instance>
+        </interface>
+        <fqname>@1.0::IUimRemoteServiceServer/uimRemoteServer0</fqname>
+    </hal>
+</manifest>
