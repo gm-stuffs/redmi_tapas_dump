@@ -1,0 +1,4 @@
+vendor_dlkm/lib/modules/qca_cld3_wlan.ko.xz
+recovery.img.xz
+modem.img.xz
+bootRE/boot.elf.xz

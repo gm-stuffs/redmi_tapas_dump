@@ -1,0 +1,7 @@
+persist.sys.miui.camera.boost.killAdj_threshold=400:250:100:50
+ro.product.device_for_attestation=tapas
+ro.product.manufacturer_for_attestation=Xiaomi
+ro.product.odm.cert=tapas
+ro.product.odm.marketname=tapas
+ro.surface_flinger.game_default_frame_rate_override=60
+ro.vendor.qti.va_odm.support=1

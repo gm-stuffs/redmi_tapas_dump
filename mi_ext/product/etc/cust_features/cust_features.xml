@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <string-array name="config_gnss_for_common_operator">
+            <item>25001</item>
+            <item>25002</item>
+            <item>25099</item>
+            <item>25020</item>
+            <item>25011</item>
+        </string-array>
+        <string-array name="config_locate_disabled_gdpr">
+            <item>AT</item>
+            <item>BE</item>
+            <item>BG</item>
+            <item>CY</item>
+            <item>CZ</item>
+            <item>DE</item>
+            <item>DK</item>
+            <item>EE</item>
+            <item>ES</item>
+            <item>FI</item>
+            <item>FR</item>
+            <item>GB</item>
+            <item>GR</item>
+            <item>HR</item>
+            <item>HU</item>
+            <item>IE</item>
+            <item>IT</item>
+            <item>LT</item>
+            <item>LU</item>
+            <item>LV</item>
+            <item>MT</item>
+            <item>NL</item>
+            <item>PL</item>
+            <item>PT</item>
+            <item>RO</item>
+            <item>SE</item>
+            <item>SI</item>
+            <item>SK</item>
+            <item>KR</item>
+        </string-array>
+        <string-array name="config_firewall_white_list">
+            <item>com.trustonic.telecoms.client.standard.dlc.playground</item>
+            <item>com.trustonic.telecoms.standard.dlc</item>
+            <item>com.trustonic.telecoms.standard.dpc</item>
+            <item>com.trustonic.telecoms.setup</item>
+            <item>com.payjoy.status.df</item>
+            <item>com.kistpay.finance</item>
+            <item>com.trustonic.telecoms.xti.dpc</item>
+            <item> com.airtelx.airtelkiosk</item>
+            <item>com.payjoy.status</item>
+            <item>com.payjoy.access</item>
+        </string-array>
+        <map name="config_disable_background_apps">
+            <item name="com.android.phone">true</item>
+            <item name="com.android.deskclock">true</item>
+            <item name="com.android.mms">true</item>
+            <item name="com.android.providers.downloads.ui">true</item>
+            <item name="com.controlmovil.telcel">true</item>
+            <item name="com.kddi.android.cmail">true</item>
+            <item name="com.payjoy.status">true</item>
+        </map>
+        <string-array name="config_bg_white_list">
+            <item>com.xiaomi.xmsf</item>
+            <item>com.miui.guardprovider</item>
+            <item>com.xiaomi.account</item>
+            <item>com.lbe.security.miui</item>
+            <item>com.miui.securityadd</item>
+            <item>com.trustonic.telecoms.xti.dpc</item>
+            <item>com.trustonic.telecoms.setup</item>
+            <item>com.trustonic.telecoms.standard.dpc</item>
+            <item>com.trustonic.telecoms.standard.dlc</item>
+            <item>com.trustonic.telecoms.client.standard.dlc.playground</item>
+            <item>com.miui.analytics</item>
+            <item>com.kistpay.finance</item>
+            <item>com.payjoy.status.df</item>
+            <item>com.payjoy.status</item>
+            <item>com.payjoy.access</item>
+            <item>com.airtelx.airtelkiosk</item>
+        </string-array>
+        <string-array name="config_cust_super_charge_mode_white_list">
+            <item>com.google.android.dialer</item>
+            <item>com.trustonic.telecoms.client.standard.dlc.playground</item>
+            <item>com.trustonic.telecoms.standard.dlc</item>
+            <item>com.trustonic.telecoms.standard.dpc</item>
+            <item>com.trustonic.telecoms.setup</item>
+            <item>com.payjoy.status.df</item>
+            <item>com.google.android.apps.devicelock</item>
+            <item>com.kistpay.finance</item>
+            <item>com.trustonic.telecoms.xti.dpc</item>
+            <item>com.airtelx.airtelkiosk</item>
+        </string-array>
+        <map name="plmn_network_display_rule">
+            <item name="network_display_config">5,26806,MEO</item>
+            <item name="45006">3</item>
+        </map>
+        <map name="enable_state_list">
+            <item name="com.xiaomi.mipicks">TH;PH;VN;MY;BR;MX;EG;CL;CO;SA;PE;MA;JP;MM;PK;ZA;IN;ID;RU;TR;ES</item>
+            <item name="com.mipay.wallet.in">IN</item>
+            <item name="com.miui.virtualsim">ID</item>
+            <item name="com.mi.globalTrendNews">""</item>
+            <item name="com.micredit.in">IN</item>
+            <item name="com.mi.global.shop">IN;TW;HK;ES;FR;ID;RU;IT;GB;DE;TR;JP;NL;PL;MX</item>
+            <item name="com.mi.global.pocostore">TW;HK;ES;FR;ID;RU;IT;GB;DE;NL</item>
+            <item name="com.boundax.koreapreloadappinstaller">KR</item>
+        </map>
+        <string-array name="config_process_secretly_protect_list">
+            <item>com.tencent.mm</item>
+            <item>com.google.android.gms</item>
+            <item>com.xiaomi.channel</item>
+            <item>com.xiaomi.channel:remote</item>
+        </string-array>
+        <string-array name="config_process_fg_service_check_list">
+            <item>com.miui.screenrecorder</item>
+            <item>com.android.soundrecorder</item>
+            <item>com.android.deskclock</item>
+            <item>com.miui.voiceassist</item>
+            <item>com.xiaomi.drivemode</item>
+            <item>com.caiharbor.esim</item>
+            <item>com.ucloudlink.cloudsim.xiaomi</item>
+            <item>com.miui.backup</item>
+            <item>com.miui.mishare.connectivity</item>
+            <item>com.miui.notes</item>
+            <item>com.milink.service</item>
+            <item>com.xiaomi.mirror</item>
+        </string-array>
+        <string-array name="config_process_static_white_list">
+            <item>com.xiaomi.entitlement.o2</item>
+        </string-array>
+        <string-array name="config_package_static_white_list">
+            <item>com.miui.voip</item>
+            <item>com.miui.contentextension</item>
+            <item>com.google.android.googlequicksearchbox</item>
+            <item>com.xiaomi.gameboosterglobal</item>
+            <item>com.mi.android.globalminusscreen</item>
+            <item>com.quicinc.voice.activation</item>
+        </string-array>
+    </cust_feature>
+</cust_features>

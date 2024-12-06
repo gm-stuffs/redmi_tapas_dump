@@ -1,0 +1,14 @@
+# missi-user 15 AQ3A.240829.003 OS2.0.5.0.VMTMIXM release-keys
+- manufacturer: xiaomi
+- platform: bengal
+- codename: tapas
+- flavor: missi-user
+- release: 15
+- id: AQ3A.240829.003
+- incremental: OS2.0.5.0.VMTMIXM
+- tags: release-keys
+- fingerprint: Redmi/tapas_global/tapas:13/TKQ1.221114.001/OS2.0.5.0.VMTMIXM:user/release-keys
+- is_ab: true
+- brand: Redmi
+- branch: missi-user-15-AQ3A.240829.003-OS2.0.5.0.VMTMIXM-release-keys
+- repo: redmi_tapas_dump

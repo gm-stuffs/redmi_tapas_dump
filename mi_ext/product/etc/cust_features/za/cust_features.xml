@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <bool name="hide_sip_setting_preference">true</bool>
+    </cust_feature>
+</cust_features>

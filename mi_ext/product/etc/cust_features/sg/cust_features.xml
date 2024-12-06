@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <integer name="config_operator_cust_wifi">2</integer>
+        <integer name="config_screen_off_timeout">60000</integer>
+    </cust_feature>
+</cust_features>

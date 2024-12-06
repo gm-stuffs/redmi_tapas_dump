@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <integer name="config_operator_cust_wifi">1</integer>
+        <bool name="support_domestic_roaming">true</bool>
+    </cust_feature>
+</cust_features>

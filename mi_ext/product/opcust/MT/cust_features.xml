@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <string-array name="preferred_network_type_list">
+            <item>32,preferred_network_type_pref_entries_5g_preferred_za_mt</item>
+            <item>20,preferred_network_type_pref_entries_4g_preferred_za_mt</item>
+        </string-array>
+    </cust_feature>
+</cust_features>

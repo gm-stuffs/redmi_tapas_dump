@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cust_features>
+    <cust_feature>
+        <bool name="config_dismiss_countryiso_after_conference">true</bool>
+    </cust_feature>
+</cust_features>
