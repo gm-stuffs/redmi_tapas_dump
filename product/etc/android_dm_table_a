@@ -1,0 +1,14 @@
+create mireuse_a
+linear 0       368640  /dev/block/by-name/modem_a 0
+linear 368640  262144  /dev/block/by-name/boot_a 0
+linear 630784  204800  /dev/block/by-name/recovery_a 0
+linear 835584  196608  /dev/block/by-name/vendor_boot_a 0
+linear 1032192 98304   /dev/block/by-name/imagefv_a 0
+linear 1130496 65536   /dev/block/by-name/mdtp_a 0
+linear 1196032 65536   /dev/block/by-name/dsp_a 0
+linear 1261568 49152   /dev/block/by-name/dtbo_a 0
+linear 1310720 16384   /dev/block/by-name/init_boot_a 0
+linear 1327104 8192    /dev/block/by-name/mdtpsecapp_a 0
+linear 1335296 2048    /dev/block/by-name/bluetooth_a 0
+linear 1337344 256     /dev/block/by-name/featenabler_a 0
+linear 1337600 128     /dev/block/by-name/qupfw_a 0

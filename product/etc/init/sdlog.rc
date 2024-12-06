@@ -1,0 +1,38 @@
+# MIUI ADD:Build_MIUIBuildFrame
+on post-fs-data
+    mkdir /data/local/tmp 0777 shell shell
+
+    # add for gsort
+    chmod 0777 /dev/block/sda15
+
+    # add for runin write tp
+    chmod 0777 /proc/tp_work
+    chmod 0777 /sys/class/qcom-battery/input_suspend
+
+service sdlog /product/bin/sdlog
+    class late_start
+    group everybody
+    capabilities DAC_READ_SEARCH DAC_OVERRIDE
+    user root
+    disabled
+    oneshot
+
+on property:sys.logd_t2.enable=1
+    start sdlog
+
+on property:sys.logd.enable=1
+    start sdlog
+
+on property:persist.service.sdlog.enable=1
+    start sdlog
+
+on property:persist.service.sdlog.enable=0
+    stop sdlog
+
+on property:persist.vendor.logd.enable=1
+    start sdlog
+
+on property:persist.vendor.logd.enable=0
+   setprop vendor.sdlog.run 0
+   stop sdlog
+# END Build_MIUIBuildFrame
